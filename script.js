@@ -11,10 +11,10 @@ const triangleSynth = new Tone.Synth(Options.triangleOptions)
 const noiseSynth    = new Tone.NoiseSynth()
 
 let song = {}
-let pulsePart    = new Tone.Part()
-let squarePart   = new Tone.Part()
-let trianglePart = new Tone.Part()
-let noisePart    = new Tone.Part()
+var pulsePart    = new Tone.Part()
+var squarePart   = new Tone.Part()
+var trianglePart = new Tone.Part()
+var noisePart    = new Tone.Part()
 
 const button = document.querySelector("button")
 
